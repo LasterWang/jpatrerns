@@ -1,0 +1,6 @@
+
+2018-05-17 19:39:12,722INFO [com.surge.patters.MainTest.one(MainTest.java:11)] into one method
+
+2018-05-17 19:39:12,724ERROR [com.surge.patters.MainTest.one(MainTest.java:15)] / by zero
+
+2018-05-17 19:39:12,724INFO [com.surge.patters.MainTest.one(MainTest.java:17)] out one method
