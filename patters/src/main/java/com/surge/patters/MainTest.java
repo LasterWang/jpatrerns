@@ -5,16 +5,12 @@ import org.slf4j.LoggerFactory;
 
 public class MainTest {
 	// 在任何需要记录日志的类中
-	Logger log=LoggerFactory.getLogger(MainTest.class);
+	Logger logger=LoggerFactory.getLogger(MainTest.class);
 	
 	public void one() {
-		log.debug("into one method");
-		try {
-			System.out.println(9 / 0);
-		} catch (RuntimeException e) {
-			log.error(e.getMessage());
-		}
-		log.info("out one method");
+		logger.debug("debug()方法，看下这里logger的实例是：{}", logger.getClass());  
+        logger.info("info()方法，看下这里logger的实例是：{}", logger.getClass());  
+        logger.error("error()方法，看下这里logger的实例是：{}", logger.getClass());  
 	}
 
 	public static void main(String[] args) {
