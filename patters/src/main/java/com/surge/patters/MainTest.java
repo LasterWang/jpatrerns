@@ -2,9 +2,9 @@ package com.surge.patters;
 
 import org.slf4j.LoggerFactory;
 
-public class LogTest {
+public class MainTest {
 	// 在任何需要记录日志的类中
-	LoggerFactory.getLogger();
+	LoggerFactory
 	
 //	public void one() {
 //		log.info("into one method");
