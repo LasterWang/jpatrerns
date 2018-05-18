@@ -11,6 +11,7 @@ public class MainTest {
 		logger.debug("debug()方法，看下这里logger的实例是：{}", logger.getClass());  
         logger.info("info()方法，看下这里logger的实例是：{}", logger.getClass());  
         logger.error("error()方法，看下这里logger的实例是：{}", logger.getClass());  
+        logger.info("rrrr{}dddd","xx");
 	}
 
 	public static void main(String[] args) {
